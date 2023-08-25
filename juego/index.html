@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AHORCADO</h1>
+    <div class="hangman-container">
+        <div class="hangman">
+            <div class="head"></div>
+            <div class="body"></div>
+            <div class="left-arm"></div>
+            <div class="right-arm"></div>
+            <div class="left-leg"></div>
+            <div class="right-leg"></div>
+        </div>
+        <div class="word-display" id="wordDisplay"></div>
+        <div class="keyboard">
+            <div class="key-row">
+                <div class="key" data-letter="A">A</div>
+                <div class="key" data-letter="B">B</div>
+                <div class="key" data-letter="C">C</div>
+                <div class="key" data-letter="D">D</div>
+                <div class="key" data-letter="E">E</div>
+                <div class="key" data-letter="F">F</div>
+                <div class="key" data-letter="G">G</div>
+                <div class="key" data-letter="H">H</div>
+                <div class="key" data-letter="I">I</div>
+                <div class="key" data-letter="J">J</div>
+            </div>
+            <div class="key-row">
+                <div class="key" data-letter="K">K</div>
+                <div class="key" data-letter="L">L</div>
+                <div class="key" data-letter="M">M</div>
+                <div class="key" data-letter="N">N</div>
+                <div class="key" data-letter="N">Ñ</div>
+                <div class="key" data-letter="O">O</div>
+                <div class="key" data-letter="P">P</div>
+                <div class="key" data-letter="Q">Q</div>
+                <div class="key" data-letter="R">R</div>
+                <div class="key" data-letter="S">S</div>
+                <div class="key" data-letter="T">T</div>
+            </div>
+            <div class="key-row">
+                <div class="key" data-letter="U">U</div>
+                <div class="key" data-letter="V">V</div>
+                <div class="key" data-letter="W">W</div>
+                <div class="key" data-letter="X">X</div>
+                <div class="key" data-letter="Y">Y</div>
+                <div class="key" data-letter="Z">Z</div>
+            </div>
+        </div>
+        <p class="message" id="message"></p>
+        <button class="reset-button" id="resetButton">Reiniciar</button>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2023 Juego del Ahorcado. Todos los derechos reservados. Creado con 	&#10084;&#65039 por Sofia&#128125;</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

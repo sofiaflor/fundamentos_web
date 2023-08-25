@@ -91,7 +91,6 @@
     font-family: 'Open Sans', sans-serif;
     color: #000000 ;
     margin-bottom: 25px;
-    text-transform: capitalize;
 }
 
 .header-txt p{
@@ -186,11 +185,11 @@
     width: 35%;
     
 }
-.nosotros-img img{
+.nosotros-img img {
     width: 220px;
     height: 160px;
+    margin-left: 50px;
 }
-
 .nosotros-txt {
     width: 50%;
 }
