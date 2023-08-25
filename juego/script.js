@@ -1,4 +1,4 @@
-const words = ["JAVASCRIPT", "HTML", "CSS", "CODIGO", "DISEÑO", "PROGRAMACION", "WEB", "PAGINA"];
+const words = ["JAVASCRIPT", "HTML", "CSS", "CODIGO", "PROGRAMACION", "WEB", "PAGINA"];
 const maxAttempts = 6;
 let currentWord = "";
 let guessedWord = [];
