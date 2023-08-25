@@ -114,6 +114,22 @@
 .btn-1:hover{
     background-color: #09ff00;
 }
+.btn-2{
+    display: inline-block;
+    background-color: #0051ff;
+    padding: 30px 30px;
+    border-radius: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    margin-top: 60px;
+}
+
+.btn-2:hover{
+    background-color: #00ff95;
+}
+
 
 .header-img{
     width: 50%;
@@ -224,8 +240,8 @@
 }
 
 .products p{
-    font-size: 18px;
-    color: #7a3737;
+    font-size: 30px;
+    color: #000000;
     margin-bottom: 70px;
     padding: 0 200px;
 }
