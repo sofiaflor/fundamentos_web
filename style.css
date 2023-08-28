@@ -45,14 +45,18 @@
 .menu .navbar ul li {
     position: relative;
     float: left;
+
 }
 
 .menu .navbar ul li a{
-    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px;
-    color: #303030;
+    color: #000000;
     display: block;
     font-weight: 600;
+
+    
 }
 #menu{
     display: none;
