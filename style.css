@@ -13,6 +13,10 @@
     max-width: 1300px;
     margin: 0 auto;
 }
+.contai{
+    max-width: 600px;
+    margin: 0 auto; 
+}
 .container img{
     height: 80px;
 }
