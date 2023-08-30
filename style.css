@@ -14,7 +14,7 @@
     margin: 0 auto;
 }
 .contai{
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto; 
 }
 .container img{
@@ -259,7 +259,7 @@
 }
 .product-info{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows:auto;
     grid-gap: 3rem;
     align-items: center;
